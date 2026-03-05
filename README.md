@@ -9,7 +9,7 @@ Do not forget to install the required packages.
 
 ### To reproduce Figure 1
 
-Download and execute 'Density&Lorenz-curves.R'
+Download and execute 'Density&Lorenz-curves.R'.
 
 ### To reproduce the simulations part 
 
@@ -18,6 +18,7 @@ Download and execute 'Simulations.R' to reproduce results of the Section 5: Illu
 ### To reproduce the real data set part 
 
 Download and execute 'Real-data.R' to reproduce results of the Section 6: Illustrations on an income data set. 
+
 Namely:
 
 - Subsection 6.1: Illustration of the non-discrimination of upper tails (Figure 5)
