@@ -30,5 +30,5 @@ Namely:
 
 
 <div align="center">
-<i>Estimation of the log-Expected Shortfall (with associated 90% credible intervals) on the OpenFEMA data set.</i>
+<i>Violin plot computed on 1000 replications of the estimated Atkinson index on samples of size 1000 from three distributions (in blue Pareto, in green Beta and in red Weibull) with common theoretical Atkinson index equal to 0.15 (dotted vertical line).</i>
 </div>
