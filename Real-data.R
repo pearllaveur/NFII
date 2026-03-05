@@ -1,7 +1,7 @@
 ################################################################################
 # ILLUSTRATION - INCOME DATA (NMES 1988)
 # ------------------------------------------------------------------------------
-# Objective: Reproduce Figure 5 and recover numerical results in Subsection 6.2
+# Objective: Reproduce Figure 5 and recover numerical results of Subsection 6.2
 #
 # We estimate the Gini index of the data distribution,
 # and the extreme-value index of the data distribution.
