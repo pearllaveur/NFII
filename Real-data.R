@@ -1,7 +1,7 @@
 ################################################################################
 # ILLUSTRATION - INCOME DATA (NMES 1988)
 # ------------------------------------------------------------------------------
-# Objective: Reproduce Figure 5 and recover numerical results of Subsection 6.2
+# Objective: Reproduce Figure 5 and recover numerical results in Subsection 6.2
 #
 # We estimate the Gini index of the data distribution,
 # and the extreme-value index of the data distribution.
@@ -15,10 +15,12 @@
 
 # Useful packages
 library(evir)
+library(evmix)
 library(AER)
 library(ReIns)
 library(DescTools)
 library(ggplot2)
+library(actuar)
 
 # Data preparation
 data(NMES1988)
@@ -119,10 +121,10 @@ A=function(x,y){
   return(2*x**2/((x+1)*(2*x+1)) - 2*x/(x+1) + 2/(2-y))
 }
 B=function(x,y){
-  return(2*x/(x+1) - 4/(2-y) - x*(1-G)/(x+1) + (1-G)/(1-y))
+  return(2*x/(x+1) - 4/(2-y) - x*(1-Gini_hat)/(x+1) + (1-Gini_hat)/(1-y))
 }
 C=function(y){
-  return(2/(2-y) - (1-G)/(1-y))
+  return(2/(2-y) - (1-Gini_hat)/(1-y))
 }
 solve_Gini_mixt_pstar <- function(theta, gamma) {
   pstar <- c(NA, NA)
@@ -250,3 +252,4 @@ print(IC_Gini(0.1))
 # Compute the 90% level bootstrap confidence interval for the Gini index
 IC_bootstrap <-Gini(X,unbiased=FALSE,conf.level=0.9)[2:3]
 print(IC_bootstrap)
+
