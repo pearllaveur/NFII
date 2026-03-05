@@ -13,6 +13,7 @@
 # using an asymptotic confidence interval
 ################################################################################
 
+# Useful packages
 library(evir)
 library(AER)
 library(ReIns)
