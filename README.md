@@ -26,3 +26,9 @@ Namely:
 
 **Reference**: J. El-methni, S. Girard & P. Laveur, "A new family of inequality indices: axioms, inference and tail properties", https://hal.science/hal-05153188.
 
+![image alt="image" width="20%" height="auto"](CTEflood.png)
+
+
+<div align="center">
+<i>Estimation of the log-Expected Shortfall (with associated 90% credible intervals) on the OpenFEMA data set.</i>
+</div>
