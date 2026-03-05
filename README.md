@@ -26,7 +26,7 @@ Namely:
 
 **Reference**: J. El-methni, S. Girard & P. Laveur, "A new family of inequality indices: axioms, inference and tail properties", https://hal.science/hal-05153188.
 
-![image alt="image" width="20%" height="auto"](CTEflood.png)
+![image alt="image" width="20%" height="auto"](violin-plot-Atkinson.pdf)
 
 
 <div align="center">
