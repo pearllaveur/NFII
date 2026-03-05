@@ -30,5 +30,5 @@ Namely:
 
 
 <div align="center">
-<i>Violin plot computed on 1000 replications of the estimated Atkinson index on samples of size 1000 from three distributions (in blue Pareto, in green Beta and in red Weibull) with common theoretical Atkinson index equal to 0.15 (dotted vertical line).</i>
+<i>Violin plot computed on 1000 replications of the estimated Atkinson index with parameter $\eta=0.9$ on samples of size 1000 from three distributions (in blue Pareto, in green Beta and in red Weibull) with common theoretical Atkinson index equal to 0.15 (dotted vertical line).</i>
 </div>
