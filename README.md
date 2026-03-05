@@ -24,4 +24,5 @@ Namely:
 - Subsection 6.1: Illustration of the non-discrimination of upper tails (Figure 5)
 - Subsection 6.2: Comparison of individual and grouped data estimators of the Gini index (confidence intervals)
 
+**Reference**: J. El-methni, S. Girard & P. Laveur, "A new family of inequality indices: axioms, inference and tail properties", https://hal.science/hal-05153188.
 
